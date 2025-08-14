@@ -25,6 +25,7 @@ It incorporates market data, volatility estimates, and moving average features t
   - tensorflow (Keras API included)
 
 Install libraries via:
+pip install numpy pandas matplotlib yfinance scikit-learn tensorflow
 
 
 ## How It Works
@@ -51,7 +52,7 @@ Install libraries via:
 ## Usage
 1. Save the Python code (`main.py`) with the provided script.
 2. Install required dependencies.
-3. Run:
+3. Run: python main.py
 
 4. The program will output:
    - Prediction RMSE
